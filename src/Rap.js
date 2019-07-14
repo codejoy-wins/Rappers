@@ -3,7 +3,7 @@ import React from 'react';
 function Rap(props){
     return (
         <div>
-            <h1>{props.magic.name}</h1>
+            <h1>{props.magic.song} by {props.magic.name}</h1>
             <p>{props.magic.desc}</p>
         </div>
     )

@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const stuff = falseData.map(rapper=><Rap magic={rapper}/>)
+  const stuff = falseData.map(rapper=><Rap magic={rapper} key={rapper.id}/>);
 
   return (
     <div className="App">
