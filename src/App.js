@@ -1,6 +1,7 @@
 import React from 'react';
 import falseData from './falseData';
 import Rap from './Rap';
+import Footer from './Footer';
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       {stuff}
+      <Footer />
     </div>
   );
 }
